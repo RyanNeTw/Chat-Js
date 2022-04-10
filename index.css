@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+body{
+    background-image: url('https://i.pinimg.com/1200x/e3/16/b3/e316b3d847cae08c0093c617233b2eef.jpg');
+}
+button{
+    background-color: #001219;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border:  1px solid white;
+    margin-left: 20px;
+}
+button:hover{
+    opacity: 80%;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+.mail ,.password ,.button{
+    width: 200px;
+    align-self: center;
+    background-color: #001219;
+    border: white 1px solid;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 80%;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 94vh;  
+    position: fixed;
+}
+.message{
+    width: 91.2vw;
+    height: 6vh;
+    background-color: #001219;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.buttonS , .buttonD{
+    background-color: #001219;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.buttonS:hover{
+    opacity: 80%;
+}
+.buttonD:hover{
+    opacity: 80%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li{
+    background-color: #001219;
+    border-radius: 25px;
+    width: 400px;
+}
